@@ -1,10 +1,17 @@
 goods = []
 
 g1 = {"name":"Good1","description":"Best good for all","price":1000,"weight":10,"height":30,"width":20}
-g2 = {"name":"Good2","description":"Wearst good of all","price":100,"weight":1,"height":35,"width":25}
+g2 = {"name":"Good2","description":"Wearst good of all","price":100,"weight":1,"height":35,"width":25,"list":[12,34,5]}
 
 goods.append(g1)
 goods.append(g2)
+
+
+gd=[{"name":"Good1","description":"Best good for all","price":1000,"weight":10,"height":30,"width":20},{"name":"Good2","description":"Wearst good of all","price":100,"weight":1,"height":35,"width":25}]
+
+gd1 = []
+gd1.append({"name":"Good1","description":"Best good for all","price":1000,"weight":10,"height":30,"width":20})
+gd1.append({"name":"Good1","description":"Best good for all","price":1000,"weight":10,"height":30,"width":20})
 
 
 # print(g1)
