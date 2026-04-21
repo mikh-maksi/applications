@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="range" min="0" max="10" id = "career"/>
+    <p id = "careerResult"></p>
+    <script>
+        const career = document.getElementById("career");
+        const careerResult = document.getElementById("careerResult");
+        
+        console.log(career);
+        
+        career.addEventListener("change", checkCareer);
+        function checkCareer(){
+            let v = career.value;
+            console.log(v);
+            careerResult.innerHTML = v;
+        }
+    </script>
+</body>
+</html>
